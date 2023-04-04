@@ -1,0 +1,39 @@
+﻿@model List<PlayerWithRankDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Layout";
+}
+
+<h1>Players Index</h1>
+
+<div class="container table-responsive py-5"> 
+<table class="table table-bordered table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Kullanıcı Adı</th>
+      <th scope="col">Rol</th>
+      <th scope="col">Maç Sayısı</th>
+      <th scope="col">Coin</th>
+      <th scope="col">Rütbe</th>
+      <th scope="col">Puan</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var p in Model)
+    {
+    <tr>
+        <th scope="row">@p.Id</th>
+        <td>@p.Name</td>
+        <td>@p.Role</td>
+        <td>@p.PlayedGameCount</td>
+        <td>@p.Coin</td>
+   
+        
+    </tr>
+    }
+  </tbody>
+</table>
+</div>
+

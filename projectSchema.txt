@@ -1,0 +1,73 @@
+---------------------------------------------------------------------------------------------------------------------------------
+
+-Entity-
+Veritabanýna eklenecek tablo ad ve yapýlarýný barýndýrýrýz.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+-Repository-
+Configurations>Veritabanýna eklenecek verilerin required mý null mu 50 karakter mi? kýsacasý sql tablosunu kontrol ediyoruz.
+Migrations>Veirtabanýna add migration veya update yaptýðýmýzda versiyon bölümü
+Repositories>Genel CRUD ve custom db sorgu iþlemleri
+Seeds>Default olarak otomatik veriler eklemek
+UnitOfWorks>Add Update gibi iþlemlerde save ederken commit asenkron mu senkron mu daha rahat yönetiriz.
+
+Kullanýlanlar:EntityFrameworkCore,EntityFrameworkCoreSqlServer,EntityFrameworkCoreTools
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+-Service-
+Exceptions>API de yazdýðýmýz CustomExceptionHandlerýn uygun status kodlarýný döndürmek için temel bir dosya.Örneðin Bulunamadý
+hatasý vereceksek throw notfound fýrlatýrýz ve middleware da bu class fýrlatýlmýþsa 404 dönsün diyebiliriz.
+Mapping>AutoMapper hangi sýnýflarý birbirine eþleyecek bunlarý Profile yapýsýný kullanarak tanýmlayabiliriz.Örneðin
+Player PlayerDTO ya çevrilebilsin gibi.
+Services>Repodan CRUD Custom vb. iþlemler yaparken gerekli koþul ve iþ kurallarýný yazdýðýmýz yer.API veya WEB Repodan deðil
+direkt Service den haberleþmelidir.
+Validations>FluentValidation kullanarak kullanýcý post iþlemi yaptýðýnda ilgili entitylerin gerekli koþullarýný(validasyon
+kurallarýný) burada tanýmlayabiliriz.
+
+Kullanýlanlar:AutoMapper,FluentValidation
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+-Core-
+DTOs>Belirli alacaðýmýz veya döndüreceðimiz DTO entityleri burada tanmlayabiliriz.WEB de DTO yapýsý kuracaksak ViewModel olmalýdýr.
+Repositories>Abstract katman
+Services>Abstract katman
+UnitOfWorks>Abstract katman
+
+Kullanýlanlar:
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+-API-
+Controllers>
+Filters>
+Middlewares>
+Modules>
+
+Kullanýlanlar:Autofac,EntityFrameworkCoreDesign
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Herkese açýk API Url
+GetAllAsync
+GetAllWithPlayerRankAsync
+GetByIdAsync
+GetByIdWithPlayerRankAsync
+
+
+RegisterAsync BUNLARI ÞU ANLIK OWNER YAPTIM RATELÝMÝT KULLANINCA EVERYONE ÇEK
+ChangePasswordAsync BUNLARI ÞU ANLIK OWNER YAPTIM RATELÝMÝT KULLANINCA EVERYONE ÇEK
+
+
+Eksikler:
+
+
+repo info metot update yaparken commit service de olmalý null sorgusuda PLAYERREPOSÝTORY 45.SATIR
+
+nlog
+rate limit
+sunucu al
+
+

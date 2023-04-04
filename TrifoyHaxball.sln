@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrifoyHaxball.API", "TrifoyHaxball.API\TrifoyHaxball.API.csproj", "{4B4531D6-CE58-4CB2-9CB0-7FF8436761F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrifoyHaxball.Repository", "TrifoyHaxball.Repository\TrifoyHaxball.Repository.csproj", "{F0DD391C-158A-44A3-A563-A7895CAE98CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrifoyHaxball.Core", "TrifoyHaxball.Core\TrifoyHaxball.Core.csproj", "{DB02EA29-76A7-48B6-BFDF-2195A3AE33E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrifoyHaxball.Service", "TrifoyHaxball.Service\TrifoyHaxball.Service.csproj", "{409DB4B7-C05B-48A7-8D65-89BE0E3DF698}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrifoyHaxball.Entity", "TrifoyHaxball.Entity\TrifoyHaxball.Entity.csproj", "{BF65F350-8B34-48A5-B8EA-BAE80E1E0EC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF4E318B-B9E5-4502-91DD-36303F0B493C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrifoyHaxball.Web", "TrifoyHaxball.Web\TrifoyHaxball.Web.csproj", "{C05EB0D8-74EA-45D9-AFA3-FBA2EF5CF471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B4531D6-CE58-4CB2-9CB0-7FF8436761F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4531D6-CE58-4CB2-9CB0-7FF8436761F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4531D6-CE58-4CB2-9CB0-7FF8436761F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4531D6-CE58-4CB2-9CB0-7FF8436761F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0DD391C-158A-44A3-A563-A7895CAE98CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0DD391C-158A-44A3-A563-A7895CAE98CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0DD391C-158A-44A3-A563-A7895CAE98CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0DD391C-158A-44A3-A563-A7895CAE98CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB02EA29-76A7-48B6-BFDF-2195A3AE33E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB02EA29-76A7-48B6-BFDF-2195A3AE33E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB02EA29-76A7-48B6-BFDF-2195A3AE33E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB02EA29-76A7-48B6-BFDF-2195A3AE33E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409DB4B7-C05B-48A7-8D65-89BE0E3DF698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409DB4B7-C05B-48A7-8D65-89BE0E3DF698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409DB4B7-C05B-48A7-8D65-89BE0E3DF698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409DB4B7-C05B-48A7-8D65-89BE0E3DF698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF65F350-8B34-48A5-B8EA-BAE80E1E0EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF65F350-8B34-48A5-B8EA-BAE80E1E0EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF65F350-8B34-48A5-B8EA-BAE80E1E0EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF65F350-8B34-48A5-B8EA-BAE80E1E0EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05EB0D8-74EA-45D9-AFA3-FBA2EF5CF471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05EB0D8-74EA-45D9-AFA3-FBA2EF5CF471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05EB0D8-74EA-45D9-AFA3-FBA2EF5CF471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05EB0D8-74EA-45D9-AFA3-FBA2EF5CF471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8178399E-D922-4B53-914E-91C7C813D93F}
+	EndGlobalSection
+EndGlobal
